@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.tnc{
+    color: white;
+    padding: 5%;
+}
+.tnc-head{
+    font-family: 'Titillium Web';
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.tnc-header{
+    font-size: 24px;
+    font-family: 'Lato';
+    font-weight: bold;
+}
+.content-tnc{
+    width: 60%;
+    display: flex;
+    font-family: 'Lato';
+    flex-direction: column;
+    gap: 16px;
+    font-size: 16px;
+}
+.content-tnc li{
+    margin-left: 3%;
+}

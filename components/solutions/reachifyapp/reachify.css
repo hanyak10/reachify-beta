@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    overflow-x: hidden;
+  background-color: black;
+}
+
+/* Reachify-app  */
+.reachify-app{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    background: linear-gradient(112.9deg, #131313 43.65%, #565656 125.29%);
+}
+.app-heading {
+    display: flex;
+    padding-top: 72px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Titillium Web';
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.app-heading span{
+    color:#A959ff;
+}
+.lottie img{
+width: 372px;
+height: 372px;
+left: 976px;
+top: 325px;
+border-radius: 50%;
+
+}
+.app-content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 5% 0 5% 0;
+    gap: 200px;
+}
+.app-content p{
+    font-size: 24px;
+    font-family: 'Lato';
+}
+.text{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.email-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.email-input input{
+    background: transparent;
+    border: 1px solid white;
+    height: 50px;
+    width: 450px;
+    box-shadow: 0px 0px 7px #C0C0C0;
+    border-radius: 25px;
+}
+.email-msg{
+    font-size: 24px;
+    font-family: 'Lato';
+}
+input::placeholder{
+    padding: 0 15px;
+    font-size: 16px;
+    color: white;
+}
+.mar{
+    font-weight: bold; letter-spacing: 10%; padding-bottom: 16px;
+}

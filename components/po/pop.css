@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.pop-header{
+    text-align: center;
+    font-family: 'Titillium Web';
+    font-size: 40px;
+    font-weight: bold;
+    margin: 5% 0 16px 0;
+}
+.pop-content-header{
+    font-weight: bold;
+    font-family: 'Lato';
+    font-size: 24px;
+}
+.pop{
+    padding: 5% 8%;
+    width: 70%;
+
+}
+
+.content-text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: 'Lato';
+}
+.pop-content-header{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Lato';
+}
+.pop-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.per-info{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 340px;
+}
+.per-info ul li{
+    margin-left: 6%;
+}
+.part2{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.part2  ul li{
+    margin-left: 5%;
+}
+.part3{
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.part3 ul li{
+    margin-left: 5%;
+}
+.text-header2{
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.btn-error{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    padding:2%; 
+}
+.btn-error button{
+    width: 240px;
+    height: 68px;
+    cursor: pointer;
+    border: none;
+    outline:"none";
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #5E239D;
+    color: white;
+    letter-spacing: 3px;
+
+}
+.error{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+}
+.number{
+    font-size: 400px;
+    font-family: 'Titillium Web';
+    font-weight: bold;
+    filter: drop-shadow(0px 0px 20px #C0C0C0);
+}
+.sorry{
+    font-family: 'Titillium Web';
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+.error-msg{
+    text-align: center;
+}

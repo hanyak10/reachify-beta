@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.bloglogo{
+    color: white;
+    display: flex;
+    padding: 1% 5% ;
+    gap: 10px;
+    align-items: center;
+    font-family: 'Titillium Web';
+}
+.bloglogo img{
+    height: 50px;
+}
+.blog{
+    padding:2% 5% 5% 5%;
+}
+.blog-header{
+    font-family: "titillium Web";
+    text-align: center;
+    padding-bottom: 16px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.header-text{
+    font-weight: bold;
+    font-family: "lato";
+    text-align: center;
+    padding-bottom: 16px;
+}
+.blog-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+    gap: 24px;
+}
+.card1{
+    height: 580px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #333;
+    padding: 16px;
+    border-radius: 25px;
+    gap: 8px;
+    box-shadow:   0px 0px 15px #C0C0C0;
+}
+.card-img img{
+    height: 240px;
+    width: 100%;
+    border-radius: 20px;
+}
+.date{
+    font-family: 'lato';
+    font-size: 14px;
+    padding: 8px;
+}
+.card-header{
+    font-size: 24px;
+    font-family: "lato";
+}
+.card-content{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.card-text{
+    font-family: 'lato';
+    font-size: 16px;
+}
+.blogger{
+    display: flex;
+    padding: 8px;
+    display: flex;
+    gap: 8px;
+}
+.blogger img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.blogger-name{
+    font-family: 'lato';
+    font-size: 24px;
+    font-weight: bold;
+}
+.desg{
+    font-family: 'lato';
+    font-size: 16px;
+}
+.ri--team-fill {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%235e239d' d='M12 10a4 4 0 1 0 0-8a4 4 0 0 0 0 8m-6.5 3a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5M21 10.5a2.5 2.5 0 1 1-5 0a2.5 2.5 0 0 1 5 0m-9 .5a5 5 0 0 1 5 5v6H7v-6a5 5 0 0 1 5-5m-7 5c0-.693.1-1.362.288-1.994l-.17.014A3.5 3.5 0 0 0 2 17.5V22h3zm17 6v-4.5a3.5 3.5 0 0 0-3.288-3.494c.187.632.288 1.301.288 1.994v6z'/%3E%3C/svg%3E");
+  }

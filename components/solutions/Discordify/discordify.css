@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+  background-color: black;
+}
+
+/* Reachify-discord  */
+.reachify-discord{
+    padding:  5%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    background: linear-gradient(112.9deg, #131313 43.65%, #565656 125.29%);
+  
+}
+.discord-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Titillium Web';
+    font-size: 40px;
+    margin-top: 2%;
+    font-weight: bold;
+    padding-top: 72px;
+}
+.discord-heading span{
+    color: #A959ff;
+}
+
+.discord-content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 5% 0 3% 0;
+    gap: 320px;
+}
+.discord-content p{
+    font-size: 24px;
+    font-family: 'Lato';
+}
+.text{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.email-discord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.email-input input{
+    background: transparent;
+    border: 1px solid white;
+    height: 50px;
+    width: 450px;
+    box-shadow: 0px 0px 7px #C0C0C0;
+    border-radius: 25px;
+}
+.email-msg{
+    font-size: 24px;
+    font-family: 'Lato';
+}
+input::placeholder{
+    padding: 0 15px;
+    font-size: 16px;
+    color: white;
+}
